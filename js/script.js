@@ -48,4 +48,3 @@ var products = [
     "imageTitle": "twill.jpg"
   }
 ]
-
