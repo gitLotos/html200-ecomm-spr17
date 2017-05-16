@@ -1,6 +1,5 @@
 var cart = [];
 
-
 function AddtoCart(i)
 {
   console.log("Your cart has " + cart.push(products[i]) + " items");
@@ -9,6 +8,10 @@ function AddtoCart(i)
   {
     console.log(cart[i]);
   }
+
+  $(document).ready(function(){
+          $("#cartcount").text(cart.length);
+      });
   return false;
 }
 
@@ -29,6 +32,15 @@ function RemovefromCart(x)
   {
     console.log(cart[i]);
   }
+
+  $(document).ready(function(){
+        if(cart.length != 0){
+          $("#cartcount").text(cart.length);
+        }
+        else {
+            $("#cartcount").text("");
+        }
+  });
 
   return false;
 }
