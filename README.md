@@ -70,4 +70,4 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing 
-[update this section with information about the testing steps you took to ensure site quality]
+Testing was conducted at time of development with live server plugins allowing instant feedback on code implementation.  Different browsers were used to verify that the functionality was supported cross browser. Lastly, all implemented features were tested and debugged via watch variables to ensure proper behaviour. I selected my pet goldfish Tuna to be signed on as my SQA focal. After awarding him the position and feeding him his favorite food he had no issue signing off on my site.
